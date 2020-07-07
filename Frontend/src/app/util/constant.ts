@@ -17,5 +17,5 @@ export const MENU_MAESTROS = [
   {nombre: 'Grupos', path: 'inicio/grupos'}
 ];
 
-export const SERVER_HOST = 'http://localhost:8080';
-// export const SERVER_HOST = 'https://mimiss2020.herokuapp.com';
+// export const SERVER_HOST = 'http://localhost:8080';
+export const SERVER_HOST = 'https://administracion-escuela.herokuapp.com';
