@@ -1,0 +1,19 @@
+<div class="dashboard">
+  <p>
+    <mat-toolbar color="primary">
+      <span>Administracion Escolar</span>
+      <span class="spacer"></span>
+      <button mat-button *ngFor="let opcionMenu of opcionesMenu" (click)="navegar(opcionMenu.path)">
+        {{opcionMenu.nombre}}
+      </button>
+      <button mat-button (click)="salir()">
+        Salir
+      </button>
+    </mat-toolbar>
+    </p>
+</div>
+<div class="dashboard-content">
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+</div>
